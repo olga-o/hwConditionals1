@@ -6,9 +6,9 @@ public class Main {
         int personsAge = 19;
 
         if (personsAge >= 18) {
-            System.out.println("If person's age is 18 or above the person is considered adult");
+            System.out.println("Если возраст человека равен " + personsAge + ", то он совершеннолетний");
         } else {
-            System.out.println("If person's age is under 18 he is not yet an adult and has to wait a little");
+            System.out.println("Если возраст человека равен " + personsAge + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 
         //Task 2
@@ -30,9 +30,9 @@ public class Main {
         int carSpeed = 40;
 
         if (carSpeed > 60) {
-            System.out.println("In case car speed is " + carSpeed + "km/h, you have to pay the fine");
+            System.out.println("Если скорость " + carSpeed + ", то придется заплатить штраф");
         } else {
-            System.out.println("In case car speed is " + carSpeed + "km/h, you are safe to drive");
+            System.out.println("Если скорость " + carSpeed + ", то можно ездить спокойно");
         }
 
         //Task 4
